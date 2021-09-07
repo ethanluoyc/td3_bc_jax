@@ -1,0 +1,9 @@
+-f https://storage.googleapis.com/jax-releases/jax_releases.html  # Note: wheels only available on linux.
+jax[cuda111]
+optax
+dm-tree
+numpy
+gym==0.17.0
+mujoco-py==1.50.1.1
+d4rl @ git+https://github.com/rail-berkeley/d4rl@master
+dm-haiku
